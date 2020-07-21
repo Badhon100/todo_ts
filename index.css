@@ -1,0 +1,66 @@
+.navbar{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+.nav-link{
+    
+    color: aliceblue;
+}
+
+.add-todo{
+    display: flex;
+    background-color: blueviolet;
+    width: 550px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.btn{
+    padding: 5px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(1, 1, 14);
+}
+
+.added-list{
+    display: flex;
+    background-color: rgb(4, 75, 80);
+    width: 700px;
+    height: 480px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.added-list h3{
+    color: white;
+}
+
+
+.header-footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 7px;
+}
+
+.header-footer a{
+    color: aliceblue;
+}
