@@ -1,8 +1,11 @@
-const button = document.querySelector("button");
-let input = document.getElementById("input")! as HTMLInputElement;
 
-
-function list(result: string){
-    result = input.value;
-    console.log(result);
+function list(){
+    let input = document.getElementById("input")! as HTMLInputElement;
+    console.log(input.value);
+    document.getElementById("list")!.innerHTML = input.value;
+    let hold = input.value;
+    let name:string [] = [hold];
+    console.log(name);
+    
 }
+

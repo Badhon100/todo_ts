@@ -4,63 +4,61 @@
     text-align: center;
 }
 
-
-.nav-link{
-    
+.container{
+    background-color: black;
     color: aliceblue;
 }
 
-.add-todo{
-    display: flex;
-    background-color: blueviolet;
-    width: 550px;
-    height: 300px;
-    margin-top: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 30px;
-    
+.title{
+    text-align: center;
 }
 
-.text{
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 50px;
-}
 .btn{
     padding: 5px;
     margin-top: 5px;
     width: 100px;
+    height: 35px;
+    margin-top: -3px;
 }
 
 .btn:hover{
     background-color: rgb(1, 1, 14);
 }
 
-.added-list{
-    display: flex;
-    background-color: rgb(4, 75, 80);
-    width: 700px;
-    height: 480px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 10px;
-    padding: 30px;
+.add-todo{
+    text-align: center;
+    margin-top: 3rem;
 }
 
-.added-list h3{
-    color: white;
+input{
+    width: 300px;
+    height: 35px;
+    border: 2px solid black;
 }
 
+.work-list{
+    margin-top: 3rem;
+    margin-left: -20px;
+}
 
-.header-footer{
+.list-title{
+    text-align: center;
+}
+
+.work-list li{
+    list-style: none;
+    
+}
+
+.activity-list{
+    margin-left: 300px;
+    margin-top: 15px;
+    text-align: left;
+}
+.header{
     background-color: blue;
     color: white;
     text-align: center;
     height: 50px;
     padding: 7px;
-}
-
-.header-footer a{
-    color: aliceblue;
 }
