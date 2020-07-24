@@ -1,19 +1,16 @@
-.navbar{
-    background-color: blue;
-    color: white;
-    text-align: center;
-}
 
 .container{
-    background-color: black;
+    background-color: #000000;
     color: aliceblue;
+    
 }
 
 .title{
     text-align: center;
+    margin-top: 50px;
 }
 
-.btn{
+.add{
     padding: 5px;
     margin-top: 5px;
     width: 100px;
@@ -51,7 +48,7 @@ input{
 }
 
 .activity-list{
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 15px;
     text-align: left;
 }
@@ -62,3 +59,10 @@ input{
     height: 50px;
     padding: 7px;
 }
+
+.delete-edit{
+    padding: 5px;
+    width: 80px;
+    height: 45px;
+}
+

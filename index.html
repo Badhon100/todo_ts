@@ -17,6 +17,9 @@
     />
     <link rel="stylesheet" href="index.css" />
 
+    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
     <script src="app.js"></script>
 
     <title>To Do</title>
@@ -32,12 +35,9 @@
         </div>
         <div>
           <input
-            type="text"
-            id="input"
-            placeholder="What do you Want to add?"
-          />
+            type="text" id="input" placeholder="What do you Want to add?" required/>
 
-          <button onclick="list()" class="btn btn-primary">Add</button>
+          <button onclick="list()" class="btn btn-primary add">Add</button>
         </div>
       </div>
 
@@ -46,11 +46,15 @@
           <div class="list-title">
             <li><h3>Your List</h3></li>
           </div>
-          <div class="activity-list">
-          <ol id = "list"></ol>
+          <div class="activity-list" id = "list">
+           
         </ul>
       </div>
       </div>
+    </div>
+
+    <div id="edit-delete">
+      
     </div>
 
     <script
